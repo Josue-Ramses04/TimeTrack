@@ -1,6 +1,26 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-.env
+# Entorno virtual
 env/
-**/__pycache__/
-*.pyc
+venv/
+ENV/
 
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Archivos de configuración de entorno (variables sensibles)
+.env
